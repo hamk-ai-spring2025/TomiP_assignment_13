@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+*/.venv/
+*/venv/
+*/ENV/
+*/env/
+
+# IDE / Editor specific
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Optional: If you don't want to commit generated images
+# *.png
+# *.jpg
+# *.jpeg
+# If you *do* want to commit a few example output images,
+# you can comment out the lines above or list specific images to ignore.
+# For now, let's assume we might want to add a couple of screenshots later,
+# so we won't ignore all PNGs yet.
+# If you generate many test images, you might want to uncomment *.png
+# or delete them before committing.
